@@ -2,10 +2,6 @@
 > **AWS Cloud Infrastructure Architecture Interactive Dashboard**  
 > ChatGPT 기획 → Claude Code 코딩 → AWS 개발망 직결 구축 (오류 Zero) → 운영 서버 1:1 복제 확장
 
-![Architecture 2D Overview](./PMS_AI_VibeCoding_AWS_Architecture_2D.png)
-
----
-
 ## 프로젝트 개요
 
 본 프로젝트는 **AI 바이브 코딩(ChatGPT + Claude Code)** 기반으로 개발망에 직접 SSH 배포·검증한 후, 이를 **AWS 실운영 환경으로 1:1 무중단 복제 확장**하는 모던 클라우드 인프라 아키텍처 대시보드입니다.
@@ -13,7 +9,6 @@
 - **실시간 인터랙티브 필터**: 전체 아키텍처 / 개발 환경 (Dev) / 운영 환경 (Prod) 환경별 포커싱
 - **애플 감성 UI/UX**: Cupertino Dark Midnight 스타일, 3D 누끼 캐릭터 실루엣 호버 효과
 - **인프라 스펙 서랍 (Drawer)**: 각 노드 클릭 시 클라우드 인스턴스 사양 및 계층 상세 정보 제공
-- **독립형 SVG 지원**: 단독 벡터 그래픽 문서 및 고해상도 그래픽 제공
 
 ---
 
@@ -49,9 +44,6 @@
 ├── data.js                              # 클라우드 노드 상세 스펙 데이터 정의
 ├── asset_developer_3d.png               # 개발자 3D 캐릭터 투명 누끼 그래픽
 ├── asset_users_3d.png                   # 사내 사용자 3D 캐릭터 투명 누끼 그래픽
-├── PMS_AI_VibeCoding_AWS_Architecture_2D.svg  # 독립형 2D 아키텍처 벡터 SVG
-├── PMS_AI_VibeCoding_AWS_Architecture_2D.png  # 2D 아키텍처 고해상도 렌더 이미지
-├── PMS_AI_VibeCoding_AWS_Architecture_3D.png  # 3D 아키텍처 고해상도 렌더 이미지
 └── README.md                            # 프로젝트 안내 및 배포 문서
 ```
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>개발/운영 클라우드 인프라 아키텍쳐</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="apple-viewport">
+    <!-- 상단 미니멀 네비게이션 & 모드 전환 -->
+    <header class="apple-nav">
+      <div class="nav-brand-group">
+        <div class="nav-texts">
+          <h1>개발/운영 클라우드 인프라 아키텍쳐</h1>
+          <p>ChatGPT 기획 → Claude Code 코딩 → AWS 개발망 직결 구축 (오류 Zero) → 운영 서버 1:1 복제 확장</p>
+        </div>
+      </div>
+
+      <div class="nav-right-controls">
+        <div class="apple-segmented-tabs" role="group" aria-label="아키텍처 필터">
+          <button type="button" class="seg-tab-btn active" data-mode="all">전체 아키텍처</button>
+          <button type="button" class="seg-tab-btn" data-mode="dev">개발 환경 (Dev)</button>
+          <button type="button" class="seg-tab-btn" data-mode="prod">운영 환경 (Prod)</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 단일 화면 SVG 아키텍처 다이어그램 캔버스 (스크린샷 일치) -->
+    <main class="stage-wrapper">
+      <div id="diagram-svg-stage" style="width:100%; height:100%; display:flex; align-items:center; justify-content:center;"></div>
+    </main>
+
+    <!-- 우측 슬라이드 서랍 (노드 클릭 시) -->
+    <aside id="apple-drawer" class="apple-drawer" aria-label="노드 상세 정보"></aside>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

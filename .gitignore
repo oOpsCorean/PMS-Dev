@@ -1,0 +1,20 @@
+# Temporary & build artifacts
+.edge-temp/
+scratch/
+bin/
+*.exe
+*.log
+DEPLOY_URL.txt
+check_emojis.ps1
+
+# Business & confidential proposal documents
+PPT/
+
+# Agent configuration
+.agents/
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
